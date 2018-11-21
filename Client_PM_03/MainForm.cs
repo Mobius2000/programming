@@ -175,5 +175,20 @@ namespace Client_PM
                 Setup_Logged_User();
             }
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            DLG_Login dlg = new DLG_Login();
+
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                Logged_User = dlg.Logged_User;
+                Setup_Logged_User();
+            }
+            else
+            {
+                this.Close();
+            }
+        }
     }
 }

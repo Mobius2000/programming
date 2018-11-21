@@ -95,28 +95,28 @@
             // MI_Account_Login
             // 
             this.MI_Account_Login.Name = "MI_Account_Login";
-            this.MI_Account_Login.Size = new System.Drawing.Size(180, 22);
+            this.MI_Account_Login.Size = new System.Drawing.Size(108, 22);
             this.MI_Account_Login.Text = "Login";
             this.MI_Account_Login.Click += new System.EventHandler(this.MI_Account_Login_Click);
             // 
             // MI_Account_Profil
             // 
             this.MI_Account_Profil.Name = "MI_Account_Profil";
-            this.MI_Account_Profil.Size = new System.Drawing.Size(180, 22);
+            this.MI_Account_Profil.Size = new System.Drawing.Size(108, 22);
             this.MI_Account_Profil.Text = "Profil";
             this.MI_Account_Profil.Click += new System.EventHandler(this.MI_Account_Profil_Click);
             // 
             // Mi_Account_Create
             // 
             this.Mi_Account_Create.Name = "Mi_Account_Create";
-            this.Mi_Account_Create.Size = new System.Drawing.Size(180, 22);
+            this.Mi_Account_Create.Size = new System.Drawing.Size(108, 22);
             this.Mi_Account_Create.Text = "Create";
             this.Mi_Account_Create.Click += new System.EventHandler(this.Mi_Account_Create_Click);
             // 
             // MI_Account_Exit
             // 
             this.MI_Account_Exit.Name = "MI_Account_Exit";
-            this.MI_Account_Exit.Size = new System.Drawing.Size(180, 22);
+            this.MI_Account_Exit.Size = new System.Drawing.Size(108, 22);
             this.MI_Account_Exit.Text = "Exit";
             // 
             // groupBox2
@@ -244,6 +244,7 @@
             this.MinimumSize = new System.Drawing.Size(1169, 713);
             this.Name = "MainForm";
             this.Text = "Photo manager client application";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.groupBox1.ResumeLayout(false);
             this.MS_Account.ResumeLayout(false);

@@ -17,6 +17,7 @@ namespace Client_PM
         public User User { get; set; }
         private ValidationProvider ValidationProvider;
         private bool AvatarImageChanged = false;
+
         public DLG_Account()
         {
             InitializeComponent();
@@ -113,4 +114,4 @@ namespace Client_PM
 }
 
 
-// allo ses plate 
+// allo ses plate
